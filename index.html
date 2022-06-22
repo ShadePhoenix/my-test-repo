@@ -1,26 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>Daniel Legaspi-Finch</h1>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Who are you?</h1>
+        </header>
 
-    <nav>
+        <nav></nav>
 
-    </nav>
+        <!-- action="https://formspree.io/f/mvolnkdp" -->
+        <main>
+            <form
+                action="https://formspree.io/f/mvolnkdp"
+                method="post"
+                style="
+                    display: grid;
+                    grid-template-columns: 100px 200px;
+                    gap: 10px;
+                "
+            >
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="full-name" id="fullName" />
+                <!-- <label for="firstName">First Name:</label>
+                    <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    required
+                    placeholder="Enter First Name."
+                    />
+                    <label for="lastName">Last Name:</label>
+                    <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    required
+                    placeholder="Enter Last Name."
+                    /> -->
+                <label for="age">Age:</label>
+                <input
+                    type="number"
+                    name="age"
+                    id="age"
+                    min="0"
+                    max="150"
+                    required
+                />
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="" default hidden>
+                        Please Select a State
+                    </option>
+                    <option value="SA">South Australia</option>
+                    <option value="WA">Western Australia</option>
+                    <option value="NT">Northern Territory</option>
+                    <option value="QLD">Queensland</option>
+                    <option value="ACT">Australian Capital Territory</option>
+                    <option value="VIC">Victoria</option>
+                    <option value="TAS">Tasmania</option>
+                </select>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter Email Address."
+                />
+                <label for="phone">Phone:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    pattern="0[0-9]{9}"
+                    maxlength="10"
+                />
+                <br />
+                <small>Format: 0123456789</small>
+                <!-- <label for="genderSelect"></label>
+                <select id="genderSelect" name="genderSelect" required>
+                    <option value="" default hidden>
+                        Please select a gender
+                    </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="gender">Gender Neutral</option>
+                    <option value="other">Other</option>
+                    <option value="N/A">Prefer not to say</option>
+                </select> -->
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="messaage"
+                    cols="30"
+                    rows="10"
+                    required
+                ></textarea>
+                <br />
+                <input type="submit" value="submit" />
+            </form>
+        </main>
 
-    <main>
-
-    </main>
-    
-    <footer>
-
-    </footer>
-</body>
+        <footer></footer>
+    </body>
 </html>

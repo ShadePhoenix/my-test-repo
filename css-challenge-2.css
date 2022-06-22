@@ -1,0 +1,17 @@
+div {
+    border: 3px solid #ff9472;
+    background-color: #86ea85;
+    padding: 30px 0px 30px 1px;
+}
+
+div > div {
+    background-color: #ff5eab;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+p {
+    padding-left: 60px;
+}
