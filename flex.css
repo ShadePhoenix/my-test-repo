@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.outer {
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#a {
+    background-color: lightblue;
+}
+
+#b {
+    background-color: orange;
+}
+
+#c {
+    background-color: hotpink;
+}
+
+#d {
+    background-color: red;
+}
+
+#e {
+    background-color: lime;
+}
+
+#f {
+    background-color: purple;
+}
+
+#g {
+    background-color: violet;
+}
+
+#h {
+    background-color: blue;
+}

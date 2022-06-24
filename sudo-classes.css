@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+}
